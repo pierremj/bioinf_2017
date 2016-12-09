@@ -1,4 +1,3 @@
-October 18, 2016
 
 Introduccion a Rstudio
 ======================
