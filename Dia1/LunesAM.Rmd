@@ -1,9 +1,12 @@
 ---
-title: 
+title: "Dia 1 Session 1: Introduccion a Rstudio y Rmarkdown"
 author: 
 date: 
 output: 
-  github_document
+  html_document: 
+    keep_md: yes
+    toc: true
+    toc_depth: 2
 ---
 
 ```{r setup, include=FALSE}
