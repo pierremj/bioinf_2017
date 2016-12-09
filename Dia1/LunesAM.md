@@ -1,10 +1,10 @@
-# Dia 1 Session 1: Introduccion a RStudio y Rmarkdown
+# Dia 1 Session 1: Introduccion a Rstudio y Rmarkdown
 
 
 
 
 # Introduccion a Rstudio
-
+  
 Rstudio es un entorno integrado de dessarrolo o IDE (integrated development environment) para el lenguaje de programación R. El proposito de este software no es mas que facilitarle la vida a los programadores al integrar varios componentes que son comunmente usados durante el analisis de datos y desarrollo de software en R. Rstudio cuenta con varios componentes que se describiran a continuacion: la consola, un editor de textos, el entorno, el historial, y un visualizador de archivos y graficos.
 
 ![La ventana de Rstudio por default](./Figuras/Rstudio1.png)
@@ -127,12 +127,8 @@ Rstudio puede mostrar los graficos generados de una manera conveniente en la ven
 
 ```r
 library("ggplot2")		# Asegurate que el paquete ggplot este cargado
-x <- rnorm(100)		# Generar 100 valores aleatorios usando la distribucion normal
+x <- rnorm(1000)		# Generar 100 valores aleatorios usando la distribucion normal
 qplot(x)				# Muestra los resultados en forma de histograma
-```
-
-```
-## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
 ![](LunesAM_files/figure-html/unnamed-chunk-3-1.png)<!-- -->

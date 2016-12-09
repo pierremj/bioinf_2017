@@ -11,11 +11,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(include = TRUE)
+set.seed(100)
 ```
 
 
 # Introduccion a Rstudio
-
+  
 Rstudio es un entorno integrado de dessarrolo o IDE (integrated development environment) para el lenguaje de programación R. El proposito de este software no es mas que facilitarle la vida a los programadores al integrar varios componentes que son comunmente usados durante el analisis de datos y desarrollo de software en R. Rstudio cuenta con varios componentes que se describiran a continuacion: la consola, un editor de textos, el entorno, el historial, y un visualizador de archivos y graficos.
 
 ![La ventana de Rstudio por default](./Figuras/Rstudio1.png)
@@ -125,9 +126,9 @@ Una de las formas mas convenientes de explorar datos es visualizandola en forma 
 
 Rstudio puede mostrar los graficos generados de una manera conveniente en la venta de "Plots". Corre el siguiente codigo para generar un plot:
 
-```{r, warning=FALSE}
+```{r, message=FALSE, warning=FALSE}
 library("ggplot2")		# Asegurate que el paquete ggplot este cargado
-x <- rnorm(100)		# Generar 100 valores aleatorios usando la distribucion normal
+x <- rnorm(1000)		# Generar 100 valores aleatorios usando la distribucion normal
 qplot(x)				# Muestra los resultados en forma de histograma
 ```
 
