@@ -1,6 +1,6 @@
 ---
-title: "Introduccion a Rstudio"
-author: "Pierre Michel Jean Beltran"
+title: 
+author: 
 date: "October 18, 2016"
 output: 
   github_document

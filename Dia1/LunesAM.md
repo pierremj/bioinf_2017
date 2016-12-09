@@ -1,6 +1,3 @@
-Introduccion a Rstudio
-================
-Pierre Michel Jean Beltran
 October 18, 2016
 
 Introduccion a Rstudio
