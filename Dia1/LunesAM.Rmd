@@ -1,11 +1,12 @@
 ---
 title: "Dia 1 Session 1: Introduccion a Rstudio y Rmarkdown"
 author: Pierre M Jean
-date: 
 output:
   html_document:
     keep_md: true
     toc: true
+    theme: united
+    number_sections: true
     toc_depth: 2
 ---
 
